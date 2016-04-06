@@ -39,14 +39,14 @@ ul{
     margin-bottom: 30px;
 }
 .content p{
-    font-size: 20px;
+    font-size: 19px;
 }
 .content span{
     font-weight: bold;
     color: #00baac;
 }
 .messengers{
-    margin-top: 15px;
+    margin-top: 45px;
     margin-bottom: 20px;
 }
 .comingSoon{
@@ -55,7 +55,7 @@ ul{
     clear: both;
     margin-left: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 0px;
 }
 .comingSoon img{
