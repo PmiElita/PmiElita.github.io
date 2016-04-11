@@ -19,6 +19,20 @@ ul{
     padding-bottom: 57px;
     max-width: 100%;
 }
+.contact{
+    margin-bottom: -60px;
+    margin-top:  40px;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #00baac;
+    border: 2px solid #00baac;
+    border-radius: 4px;
+    background: white;
+    font-weight: bold;
+}
+.contact:hover{
+    color: #17aa9e;
+}
 .content{
     margin-top: 60px;
     min-height: 100hv;
@@ -85,6 +99,44 @@ ul{
 }
 #telegramBut i{
     padding-left: 10px;
+}
+.contactPage img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.contactPage .col-lg-4 h2{
+    margin-bottom: -18px;
+}
+.contactPage{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 29px -8px rgba(82,73,82,0.73);
+-moz-box-shadow: 5px 5px 29px -8px rgba(82,73,82,0.73);
+box-shadow: 5px 5px 29px -8px rgba(82,73,82,0.73);
+}
+.contactHeading{
+    color: #17aa9e;
+    margin-top: 5px;
+    margin-bottom: 65px;
+}
+.contactPage.container{
+    background: white;
+    padding: 30px;
+}
+.buttons{
+    margin-top: 60px;
+}
+#homeBut{
+    background: white;
+    border: 2px solid #17aa9e;
+    color: #17aa9e;
+    padding: 7px 25px;
+}
+.contactPage #telegramBut{
+    width: auto;
+    padding: 8px 15px;
 }
 @media screen and (max-width: 1124px){
 .iphone div{
