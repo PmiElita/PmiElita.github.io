@@ -2,58 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Avel</title>
-     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    
+    <title>Test</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     
 </head>
 <body>
-    <div class = "container">
-        <div class="row">
-          <div class = "iphone col-lg-4 col-md-4 col-sm-4 col- xs-0">
-             <div>
-                  <video width="240"  autoplay loop>
-                      <source src="video/Avel.mp4" type="video/mp4">
-                      <source src="video/Avel.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                 </video>
-             </div>
-          </div>
-          <div class = "content col-lg-7 col-md-8 col-sm-8 col-xs-12">
-              <img class = "logo" src="img/logo.png" alt="Avel Travel logo">
-              <h1>Meet Avel</h1>
-              <h2>Your travel buddy that lives in your favorite messenger.</h2>
-              <p>Avel`s single purpose of life is to inspire you with the destinations to visit based on your <span>tastes</span>, budget and dates. </p>
-              <p>This guy knows a lot of special places that YOU should see. He knows what you like in a trip and will accompany you through all the journey.
-</p>
-         <div class="messengers">
-            <a class="btn btn-primary btn-lg" id = "telegramBut" href="https://telegram.me/itravelbot" target="_blank">
-                Try Avel
-                   <i class="fa fa-paper-plane"></i>
-            </a>
-            <div class="comingSoon">
-                Coming soon on:
-                <a href="#"><img src="img/Slack_Icon.png" alt="">SLACK</a>
-                <a href="#"><img src="img/messenger.png" alt="">MESSENGER</a>
-                <a href="#"><img src="img/viber.png" alt="">VIBER</a>
+    <div class = "container-fluid">
+       <div class="row header">
+           <div class="col-sm-12">
+            <img src="img/Copy%20of%20black_logo_homepage.png" class="blackFriday" alt="">
+            <div class="input-group col-md-4 col-sm-4 col-xs-8 centered">
+              <input type="text" class="form-control" placeholder="Search" />
+                <span class="input-group-btn">
+                    <button class="btn" type="button">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </span>
             </div>
-         </div
-         
           </div>
+       </div>
+       <div class="row itsHappening text-center">
+           <h1 class="text-center">It`s happening</h1>
+           <img class="imgNow" src="img/Copy%20of%20black-now.png" alt="">
+           <h2>THE BEST DEALS FROM OVER 1,000 STORES, INCLUDING:</h2>
+           <div class="galleryWrapper container">
+            <button class="previousBut pull-left"></button>
+            <div class="gallery row">
+               <div class="galleryItem">
+                   <img src="img/Copy%20of%20logo-amazon.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+               <div class="galleryItem">
+                   <img src="img/Copy%20of%20logo-ebay.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+               <div class="galleryItem item500" >
+                   <img src="img/Copy%20of%20logo-walmart.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+               <div class="galleryItem item600">
+                   <img src="img/Copy%20of%20logo-target.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+               <div class="galleryItem item800">
+                   <img src="img/Copy%20of%20logo-bestbuy.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+               <div class="galleryItem item900">
+                   <img src="img/Copy%20of%20logo-verizon.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+               <div class="galleryItem">
+                   <img src="img/Copy%20of%20logo-aliexpress.png" alt="">
+                   <p>1,997 Deals</p>
+               </div>
+           </div>
+           <button class="nextBut pull-right"></button>
+           <button class = "activeGal"></button ><button class = "emptyBut"></button>
+         </div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12 topPopular text-center">
+               <img src="img/Copy%20of%20black_logo_homepage.png" alt="">
+               <h2>TOP POPULAR DEALS:</h2>
+           </div>
+       </div>
+       <div class="container">
+          <div class="row examples">
+           <div class="col-md-3 col-sm-3">
+              <div class="col-md-12">
+               <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+       </div>
+        <div class="row examples">
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                   <img src="img/Copy%20of%20logo-target.png" alt="">
+                   <div class="row">
+                       <p class = "pull-left">Samsung TVs</p>
+                       <span class = "pull-right" >See Deals></span>
+                   </div>
+                   <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
+           <div class="col-md-3 col-sm-3">
+               <div class="col-md-12">
+                <img src="img/Copy%20of%20logo-target.png" alt="">
+               <div class="row">
+                   <p class = "pull-left">Samsung TVs</p>
+                   <span class = "pull-right" >See Deals></span>
+               </div>
+               <p><img src="img/Copy%20of%20popular-v.png" alt=""> 80 Deals</p>
+               </div>
+           </div>
         </div>
+       </div>
+       <footer>
+           <div class="row text-center">
+               <div>
+                   <a href="#">Terms of conditions</a>
+                   <a href="#">Privacy</a>
+                   <a href="#">Contact</a>
+               </div>
+               <div>
+                   <span>Copyright @2015 by Black Friday Deals</span>
+               </div>
+           </div>
+       </footer>
     </div>
-      <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75618280-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
